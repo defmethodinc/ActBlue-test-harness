@@ -18,6 +18,9 @@ This setup allows for hot-swapping of code. Any changes made in the `repo_refs` 
 
 ### GitHub Build
 
+Prerequisites:
+- This requires a github token with access to the repos.  As such we need to add an `ENV` var `GH_TOKEN`. You can add this to your local shell or directing into the `.env`
+
 To build from GitHub repositories, run:
 
 ```bash
